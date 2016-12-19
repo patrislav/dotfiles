@@ -16,7 +16,7 @@ source $HOME/.dotfiles/submodules/antigen/bin/antigen.zsh
 antigen use oh-my-zsh
 
 # Load the theme
-antigen theme bureau
+antigen theme amuse
 
 # Syntax highlighting
 antigen bundle zsh-users/zsh-syntax-highlighting
