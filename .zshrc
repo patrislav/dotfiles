@@ -15,6 +15,11 @@ compinit
 source $HOME/.dotfiles/submodules/antigen/bin/antigen.zsh
 antigen use oh-my-zsh
 
+# Plugins
+antigen bundle command-not-found
+antigen bundle heroku
+antigen bundle npm
+
 # Load the theme
 antigen theme amuse
 
