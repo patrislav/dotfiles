@@ -62,25 +62,6 @@ module.exports = {
       lightWhite: '#EEEEEC'
     },
 
-    // colors: {
-    //   black: '#000000',
-    //   red: '#ff0000',
-    //   green: '#33ff00',
-    //   yellow: '#ffff00',
-    //   blue: '#0066ff',
-    //   magenta: '#cc00ff',
-    //   cyan: '#00ffff',
-    //   white: '#d0d0d0',
-    //   lightBlack: '#808080',
-    //   lightRed: '#ff0000',
-    //   lightGreen: '#33ff00',
-    //   lightYellow: '#ffff00',
-    //   lightBlue: '#0066ff',
-    //   lightMagenta: '#cc00ff',
-    //   lightCyan: '#00ffff',
-    //   lightWhite: '#ffffff'
-    // },
-
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
     shell: '',
@@ -110,7 +91,9 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    'hyper-blink'
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
