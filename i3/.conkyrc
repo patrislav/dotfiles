@@ -13,9 +13,9 @@ conky.text = [[,[{"full_text": " "},
   {"full_text": "  ${downspeed wlp3s0}  ${upspeed wlp3s0} ", "color":"\#FFFE6A"},
   {"full_text": " ${exec $HOME/.config/i3/scripts/display-volume.sh} ","color":"\#6AFFD8", "name":"volume"},
   {"full_text": " ▣ $cpu% ","color": "\#99D7FF", "name":"cpu"},
-  {"full_text": " ${acpitemp}° ","color": "\#FB4646", "name":"temp"},
+  {"full_text": "  ${hwmon temp 1}° ","color": "\#FB4646", "name":"temp"},
   {"full_text": " / ${fs_free /} ",  "color":"\#E98F15"},
-  {"full_text": " /home ${fs_free /home} ",  "color":"\#E98F15"},
+  {"full_text": "  ${fs_free /home} ",  "color":"\#E98F15"},
   #             fa-ticket
   {"full_text": "  ${memperc}% ", "color":"\#F3D194"},
   ${if_existing /sys/class/power_supply/AC0/online 1}
