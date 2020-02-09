@@ -1,3 +1,7 @@
 [submodule "submodules/antigen"]
 	path = submodules/antigen
 	url = git@github.com:zsh-users/antigen.git
+[submodule "submodules/dotbot"]
+	path = submodules/dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty

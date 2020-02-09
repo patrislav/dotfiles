@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.xinitrc: .xinitrc
+    ~/.Xresources: .Xresources
+    ~/.xsession: .xsession
+    ~/.zprofile: .zprofile
+    ~/.zshrc: .zshrc
+    ~/.config/i3: i3
+    ~/.config/kitty: kitty
+    ~/.config/polybar: polybar
+    ~/.config/redshift: redshift
+    ~/.config/rofi: rofi
+    ~/.config/variety/variety.conf: variety/variety.conf
+    ~/.config/Code/User/settings.json: vscode/settings.json
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
