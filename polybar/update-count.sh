@@ -6,7 +6,7 @@ UC=$(( UC1 + UC2 ))
 
 if (( UC > 0 ))
 then
-		echo " $UC \",\"color\": \"#FFFE6A"
+		echo "%{F#FFFE6A} $UC%{F-}"
 else
-		echo " $UC \",\"color\": \"#909090"
+		echo "%{F#909090} $UC%{F-}"
 fi

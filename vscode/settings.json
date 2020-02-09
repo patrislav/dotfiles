@@ -1,0 +1,35 @@
+{
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "rust.mode": "rls",
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.rls": {
+        "useRustfmt": true
+    },
+    "files.associations": {
+        "Dockerfile-dev": "dockerfile",
+        "*.lalrpop": "rust"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.lineNumbers": "relative",
+    "go.useLanguageServer": true,
+    "workbench.colorTheme": "acme",
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 0
+}

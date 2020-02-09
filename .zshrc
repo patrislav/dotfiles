@@ -17,7 +17,7 @@ antigen use oh-my-zsh
 
 # Plugins
 antigen bundle command-not-found
-antigen bundle heroku
+# antigen bundle heroku
 antigen bundle npm
 
 # Load the theme
@@ -29,3 +29,13 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Tell antigen we're done
 antigen apply
 
+source /usr/share/nvm/init-nvm.sh
+
+if [ $commands[kubectl] ]; then
+  source <(kubectl completion zsh)
+  alias k=kubectl
+fi
+
+if [ $commands[helm] ]; then
+  source <(helm completion zsh)
+fi

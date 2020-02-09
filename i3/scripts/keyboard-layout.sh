@@ -1,2 +1,2 @@
 #!/bin/bash
-xkblayout-state print '%s' | awk '{print toupper($1)}'
+xkb-switch | cut -c1-2 | awk '{print toupper($1)}'

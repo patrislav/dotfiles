@@ -1,5 +1,4 @@
 # dotfiles
-Patrislav's configuration files
 
 ## Required packages
 * alsa-utils
@@ -7,4 +6,5 @@ Patrislav's configuration files
 * pulseaudio
 * ttf-dejavu
 * ttf-font-awesome
-* xkblayout-state
+* xkb-switch
+* playerctl
